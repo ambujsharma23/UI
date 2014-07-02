@@ -1,0 +1,15 @@
+html,body,main,header,footer,div,table,thead,tbody,th,tr,td{
+	padding:0px;
+	margin:0px;
+}
+
+#historyTable{
+	border-collapse:collapse;
+}
+#historyTable th, td{
+	width:110px;
+	height:	20px;
+	text-align:left;
+	border:1px solid black;	
+
+} 

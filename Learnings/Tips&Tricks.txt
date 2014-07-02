@@ -1,0 +1,5 @@
+1. "border-collapse" css property in html table.
+	border-collapse:collapse;
+	border-collapse:seperate;
+
+2.

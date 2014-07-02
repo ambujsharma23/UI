@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
+		<link rel="stylesheet" href="App_CSS/moneyAppCss.css"/>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+		<script src="App_JS/moneyAppJs.js"></script>
+	</head>
+	<body>
+		<header>
+			<h1>Your Recent Spendings</h1>
+		</header>
+		<main>
+			<label for="fromDate">From:</label><input type="text" id="fromDate"/>
+			<label for="endDate">To:</label><input type="text" id="toDate"/>
+			<input type="submit" id="btnSubmit" name="btnSubmit" value="Get Transactions"/>
+			<div>
+				<table id="historyTable">
+					<thead>
+						<th>Food Category</th>
+						<th>Item Name</th>
+						<th>Quantity</th>
+						<th>Price/Item</th>
+						<th>Satisfied</th>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Breakfast</td>
+							<td>Parantha</td>
+							<td>1</td>
+							<td>15</td>
+							<td>Yes</td>
+							<td><a id="editLink" href="#">Edit</a></td>
+							<td><a id="deleteLink" href="#">Delete</a></td>
+						</tr>
+						<tr>
+							<td>Lunch</td>
+							<td>Thali</td>
+							<td>1</td>
+							<td>40</td>
+							<td>Yes</td>
+							<td><a id="editLink" href="#">Edit</a></td>
+							<td><a id="deleteLink" href="#">Delete</a></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</main>
+		<footer>
+			<button id="btnClose" name="btnClose" value="Close"/>
+			<script src="App_JS/bottomScript.js"></script>
+		</footer>
+	</body>
+</html>
