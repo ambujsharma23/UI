@@ -2,4 +2,8 @@
 	border-collapse:collapse;
 	border-collapse:seperate;
 
-2.
+2. Traditional event registration like:
+	element1.onclick = doSomething2;
+   registers handler for bubbling phase.
+
+3.
